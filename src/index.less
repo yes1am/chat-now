@@ -1,0 +1,28 @@
+html, body, #root {
+  height: 100%;
+}
+
+.App  {
+  width: 750px;
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 1px solid black;
+  background: #eee;
+  overflow-y: auto;
+}
+
+.message {
+  padding: 4px 0;
+  margin: 4px 0;
+  &.system_message {
+    text-align: center;
+  }
+  &.send_message {
+    text-align: right;
+    background: lightgreen;
+  }
+  &.receive_message {
+    background: white;
+  }
+}
